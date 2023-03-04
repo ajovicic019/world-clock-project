@@ -1,6 +1,21 @@
 body {
   font-family: sans-serif;
-  background: #f5f9ee;
+  background: #dbd8e3;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 5px 10px;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  color: #f5f9ee;
+  background: #2a2438;
+}
+button:hover {
+  transition: all 150ms ease-in-out;
+  color: #2a2438;
+  background-color: #f5f9ee;
 }
 
 h1 {
@@ -27,7 +42,7 @@ select {
   display: block;
   margin: 50px auto;
   padding: 30px;
-  background-color: white;
+  background: #dbd8e3;
   border-radius: 8px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -64,4 +79,42 @@ a {
 a:hover {
   transition: all 100ms ease-in-out;
   opacity: 70%;
+}
+.dark {
+  color: #f5f9ee;
+  background: #352f44;
+}
+.dark #container {
+  color: #f5f9ee;
+  background: #2a2438;
+
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.dark .dark-theme {
+  color: #f5f9ee;
+  background: #2a2438;
+  border: 1px solid #f5f9ee;
+}
+.dark #selected-city {
+  color: #f5f9ee;
+  background: #2a2438;
+}
+.dark #cities {
+  color: #f5f9ee;
+  background: #2a2438;
+}
+.dark h1 {
+  color: #f5f9ee;
+  background: #2a2438;
+}
+.dark .go-back a {
+  color: #f5f9ee;
+  background: #2a2438;
+}
+.dark footer {
+  color: #f5f9ee;
+}
+
+.dark a {
+  color: #f5f9ee;
 }

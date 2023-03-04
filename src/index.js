@@ -45,8 +45,17 @@ function updateCity(event) {
             "h:mm:ss"
           )} <small>${cityTime.format("A")}</small></div>
         </div>
-        <a href="/">Go Back</a>`;
+        <a href="/"class="go-back">Go Back</a>`;
 }
 
 let citiesSelectElement = document.querySelector("#cities");
 citiesSelectElement.addEventListener("change", updateCity);
+
+function changeTheme() {
+  let body = document.querySelector("body");
+
+  body.classList.toggle("dark");
+}
+
+let button = document.querySelector(".dark-theme");
+button.addEventListener("click", changeTheme);
